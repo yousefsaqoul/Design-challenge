@@ -1,0 +1,487 @@
+body 
+{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* ::::::::::.......... here start Header..........:::::::::: */
+
+
+.logo 
+{
+    width: 30px;
+}
+
+
+.main-nav 
+{
+    display: flex;
+    position: fixed;
+    padding-left: 30px;
+}
+
+
+.main-nav h1
+{
+    font-size: 20px;
+    padding-left: 10px;
+    line-height:10px;
+}
+
+
+.main-nav span
+{
+    font-size:10px;
+}
+
+
+.better-designer
+{
+    background-image: url('../img/ilustracion1.png');
+    background-size: 61%;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.mytext 
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 10%;
+    align-items:flex-start;
+    justify-content: center;
+    margin-top: 22%;
+}
+
+
+.mytext h1
+{
+    font-size: 50px;
+    width: 390px;
+}
+
+
+.mytext h3
+{
+   width: 500px;
+   margin-top: 0;
+}
+
+
+.mytext h4
+{
+   padding-left: 0;
+   margin-top: 90px;
+   color: #ff3571;
+}
+
+
+.better-designer img
+{
+    align-self: flex-end;
+    width: 40%;
+    padding-bottom:70px;
+    padding-right: 50px;
+    position: relative;
+    animation-name: x-men;
+    animation-duration: 1s;
+    animation-iteration-count: 7;
+    animation-direction: alternate-reverse;
+}
+
+
+@keyframes x-men {
+    1%{ left: 10px; top:20px; }
+    5%{ left: 20px; top:10px ;}
+    10%{ left: 20px; top:10px ;}
+    15%{ left: 20px; top:10px ;}
+}
+/* ::::::::::.......... here end Header..........:::::::::: */
+
+
+.gallery img
+{
+    margin-top: 60px;
+    width: 100%;
+
+}
+.main-paragraph{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+/* ::::::::...... here start main paragraph /every idea/.......:::::::: */
+
+
+.mypara
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-top:12%;
+    margin-bottom: 0;
+    
+}
+.mypara h1
+{
+    font-size: 50px;
+    margin-top:0;
+}
+
+
+.mypara h3 
+
+{
+    font-size: 15px;
+    width: 37%;
+    padding: 0;
+    line-height: 30px;
+}
+.after-several
+{
+   padding-top: 80px;
+    width: 50%;
+    padding-left: 14%;
+    font-size: 35px;
+    margin-top:0;
+}
+
+
+
+article h1
+{
+    font-size: 24px;
+    margin: 170px 0 0 0;
+}
+
+article h2
+{
+  font-size: 15px; 
+   
+
+}
+article img {
+    width: 25px;
+    padding-right: 15px;
+}
+
+.ideas-share {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+.start-design {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+/* ::::::::...... here end main paragraph /every idea/.......:::::::: */
+
+
+/* ::::::::...... here start are-you-ready section......:::::::: */
+
+.my-main
+{
+    margin-top: 15%;
+}
+
+
+.are-you-ready h1
+{
+    font-size: 64px;
+    text-align: center;
+
+}
+
+.are-you-ready h2
+{
+    font-size: 22px;
+    text-align: center;
+    line-height: 38px;
+}
+
+/* ::::::::...... here end are-you-ready section......:::::::: */
+
+
+/* ::::::::...... here start step01 section ......:::::::: */
+
+.step01 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    padding-left: 70px;
+}
+
+
+.text-with-eyes h1:nth-of-type(1){
+
+    font-size: 75px;
+    color: #ddd;
+}
+
+
+.text-with-eyes h1{
+    font-size: 24px;
+}
+
+
+.text-with-eyes h2{
+    line-height:30px;
+    font-size: 15px;
+}
+
+
+.step01 img {
+    width: 50%;
+    padding-top: 20px;
+}
+
+
+.text-with-eyes img
+{
+    width: 60px;
+}
+/* ::::::::...... here end step01 section ......:::::::: */
+
+
+/* ::::::::...... here start step02 section ......:::::::: */
+.step02 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    padding-left: 70px;
+}
+
+
+.text-with-hand h1:nth-of-type(1)
+{
+    font-size: 75px;
+    color: #ddd;
+}
+
+
+.text-with-hand h1
+{
+    font-size: 24px;
+}
+
+
+.text-with-hand h2
+{
+    line-height:30px;
+    font-size: 15px;
+}
+
+
+.step02 img 
+{
+    width: 40%;
+    padding-top: 20px;
+}
+
+
+.text-with-hand img
+{
+    width: 60px;
+}
+/* ::::::::...... here end step02 section ......:::::::: */
+
+/* ::::::::...... here start step03 section ......:::::::: */
+
+.step03
+{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    padding-left: 70px;
+}
+
+
+.text-with-computer-men
+h1:nth-of-type(1){
+
+    font-size: 75px;
+    color: #ddd;
+}
+
+
+.text-with-computer-men
+h1
+{
+    font-size: 24px;
+}
+
+
+.text-with-computer-men
+h2{
+    line-height:30px;
+    font-size: 15px;
+}
+
+
+.step03 img {
+    width: 50%;
+    padding-top: 20px;
+}
+
+
+.text-with-computer-men
+img
+{
+    width: 60px;
+}
+/* ::::::::...... here end step03 section ......:::::::: */
+
+/* ::::::::...... here start step04 section ......:::::::: */
+.step04 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    padding-left: 70px;
+}
+
+
+.text-with-sport-men h1:nth-of-type(1)
+{
+    font-size: 75px;
+    color: #ddd;
+}
+
+
+.text-with-sport-men h1
+{
+    font-size: 24px;
+}
+
+
+.text-with-sport-men h2
+{
+    line-height:30px;
+    font-size: 15px;
+}
+
+
+.step04 img 
+{
+    width: 40%;
+    padding-top: 20px;
+}
+
+
+.text-with-sport-men img
+{
+    width: 60px;
+}
+/* ::::::::...... here end step04 section ......:::::::: */
+
+
+/* ::::::::...... here start footer ......:::::::: */
+footer
+{
+    padding-top: 50px;
+}
+footer h1 
+{
+    font-size: 50px;
+    text-align: center;
+
+}
+footer form 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+
+}
+
+input[type="email"]
+{
+    border: none;
+    border-radius: 7px;
+    width: 31%;
+    height: 10vh;
+    margin-top: 40px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 1px #ddd;
+    text-align: center;
+    color: #ddd;
+    font-size: 25px;
+}
+
+input[type="button"]
+{
+    background-color: #ff3571;
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 16%;
+    height: 8vh;
+}
+
+input[type="button"]:hover
+{
+    background-image: linear-gradient(to right, #ff3571 0%, #3c30ff 51%, #7474bf 100%);
+}
+
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 12%;
+    margin-top: 100px;
+}
+/* ::::::::...... here end footer ......:::::::: */
+
+
+
+/* ::::::::...... here start Confirm  ......:::::::: */
+
+.comfirm-messege
+
+{
+    position: relative;
+    bottom: 250px;
+    display: none;
+    text-align: center;
+    margin-left: 25%;
+    height: 200px;
+    width: 40%;
+    padding: 100px;
+    background: #fff;
+    box-shadow: 2px 2px 5px 1px #333d;
+
+}
+.com-button{
+    background-color: #ff3571;
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 16%;
+    height: 8vh;
+}
+/* ::::::::...... here end Confirm  ......:::::::: */
+
